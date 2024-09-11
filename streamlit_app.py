@@ -6,7 +6,7 @@ def load_lottiefile(filepath: str):
     with open(filepath, "r") as f:
         return json.load(f)
 
-lottie_streamlit = load_lottiefile("kzrdAgrilI.json")
+lottie_streamlit = load_lottiefile("/kzrdAgrilI.json")
 
 st.title("🎈 My new app")
 
