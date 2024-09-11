@@ -6,11 +6,11 @@ from streamlit_lottie import st_lottie
 # with st.echo():
     # st_lottie("kzrdAgrilI.json", height = 250, key="polyfox")
 
-
+lottie_streamlit = load_lottiefile("kzrdAgrilI.json")
 
 st.title("🎈 My new app")
 
-st_lottie("https://lottie.host/f8f6abbe-7797-48cb-9d72-e3f006de0987/kzrdAgrilI.json")
+st_lottie(lottie_streamlit)
 
 st.write(
     "Let's start building!!! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
