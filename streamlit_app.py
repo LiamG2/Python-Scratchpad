@@ -2,9 +2,9 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 
 
-# img_kitajom = Image.open("image_assets/KitaJombanner.png")
-# with st.echo():
-    # st_lottie("kzrdAgrilI.json", height = 250, key="polyfox")
+def load_lottiefile(filepath: str):
+    with open(filepath, "r") as f:
+        return json.load(f)
 
 lottie_streamlit = load_lottiefile("kzrdAgrilI.json")
 
