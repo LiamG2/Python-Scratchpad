@@ -7,7 +7,7 @@ def load_lottiefile(filepath: str):
         return json.load(f)
 
 # lottie_streamlit = load_lottiefile("/kzrdAgrilI.json")
-lottie_polyfox = "https://lottie.host/f8f6abbe-7797-48cb-9d72-e3f006de0987/kzrdAgrilI.json"
+lottie_polyfox = "https://raw.githubusercontent.com/LiamG2/Python-Scratchpad/main/kzrdAgrilI.json"
 
 st.title("🎈 My new app")
 
