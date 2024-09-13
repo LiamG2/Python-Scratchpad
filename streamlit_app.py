@@ -13,7 +13,7 @@ with st.sidebar: # method for adding widgets to sidebar
 
 
 st.title("🎈 Much longer title of My new app")
-st.radio("", [-1], help='Select a number out of 3 choices')
+st.radio("", help='Select a number out of 3 choices')
 
 # Tooltips also support markdown
 radio_markdown = '''
