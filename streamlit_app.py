@@ -22,7 +22,8 @@ st.write(
     '................... testing 2 column layoutt')
 
 # set up [any-num] column layout in streamlit
-col1, col2 = st.columns(2, gap="large")
+col1, col2 = st.columns(2, gap='large') # 'gap'= between columns
+                                        # \small, medium, large (valid)
 
 # initiate 1st column
 with col1:
