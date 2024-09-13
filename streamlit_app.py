@@ -11,6 +11,7 @@ lottie_polyfox = "https://raw.githubusercontent.com/LiamG2/Python-Scratchpad/mai
 
 st.title("🎈 Much longer title of My new app")
 
+st.write(".................... testing 2 column layout")
 
 # prep for [any-num] column layout
 col1, col2 = st.columns(2)
