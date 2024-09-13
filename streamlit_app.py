@@ -20,9 +20,9 @@ col1, col2 = st.columns(2)
 
 # initiate 1st column
 with col1:
-    st.write(
-        "Let's start building!!! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-    )
+    st.write("Let's start building!!! For help and inspiration, head 
+    over to [docs.streamlit.io](https://docs.streamlit.io/).")
+    st_lottie(lottie_polyfox, height = 100, key="polyfox")
     
 # initiate 2nd column
 with col2:
