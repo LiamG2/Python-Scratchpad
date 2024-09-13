@@ -22,7 +22,7 @@ st.write(
     '................... testing 2 column layoutt')
 
 # set up [any-num] column layout in streamlit
-col1, col2 = st.columns(2)
+col1, col2 = st.columns(2, gap="large")
 
 # initiate 1st column
 with col1:
