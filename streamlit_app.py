@@ -11,7 +11,20 @@ with st.sidebar: # method for adding widgets to sidebar
     st_lottie(lottie_polyfox_1, height = 100, key="polyfox_1")
     # note different 'key' name above, needed when using same animation multiple times
 
+
 st.title("🎈 Much longer title of My new app")
+st.radio("Pick a number", [1, 2, 3], help='Select a number out of 3 choices')
+
+# Tooltips also support markdown
+radio_markdown = '''
+Select a number, you have **3** choices!
+'''.strip()
+
+st.header('Tooltips with Markdown')
+st.radio("Pick a number", [1, 2, 3], help=radio_markdown)
+
+
+
 
 st.write("................................................................................ testing 2 column layoutt")
 
