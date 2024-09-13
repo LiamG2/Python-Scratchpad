@@ -28,6 +28,16 @@ col1, col2 = st.columns(2, gap='large') # 'gap'= between columns
 # initiate 1st column
 with col1:
     # add here everything that needs to be in Column 1
+
+    file_path = 'example.txt'
+     
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+        file_content = ''.join(lines)
+     
+    print(file_content)
+
+  
     st.write(
         'Let\'s start building!!! For help and inspiration, head \
         over to ['
