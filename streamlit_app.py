@@ -2,8 +2,8 @@ import streamlit as st
 # noinspection PyUnresolvedReferences
 from streamlit_lottie import st_lottie
 
-lottie_polyfox_1 = ("https://raw.githubusercontent.com/LiamG2/Python-Scrat"
-                    "\chpad/main/kzrdAgrilI.json")
+lottie_polyfox_1 = ("https://raw.githubusercontent.com/LiamG2/Python"
+                    "-Scratchpad/main/kzrdAgrilI.json") 
 
 st.sidebar.title("Sidebar Title")
 st.sidebar.header("Sidebar Header")
