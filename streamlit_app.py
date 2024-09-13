@@ -5,7 +5,10 @@ from streamlit_lottie import st_lottie
 lottie_polyfox_1 = "https://raw.githubusercontent.com/LiamG2/Python-Scratchpad/main/kzrdAgrilI.json"
 
 st.sidebar.header("Sidebar Title")
-st.sidebar.st_lottie(lottie_polyfox_1, height = 100, key="polyfox_3")
+
+with st.sidebar: # method for adding widgets to sidebar
+    st_lottie(lottie_polyfox_1, height = 100, key="polyfox_3")
+    # note different 'key' name above, needed when using same animation multiple times
 
 st.title("🎈 Much longer title of My new app")
 
