@@ -9,6 +9,8 @@ def load_lottiefile(filepath: str):
 # lottie_streamlit = load_lottiefile("/kzrdAgrilI.json")
 lottie_polyfox = "https://raw.githubusercontent.com/LiamG2/Python-Scratchpad/main/kzrdAgrilI.json"
 
+st.sidebar.header("Sidebar Title")
+
 st.title("🎈 Much longer title of My new app")
 
 st.write("................................................................................ testing 2 column layout")
