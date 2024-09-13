@@ -20,4 +20,9 @@ with col1:
     )
 
 with col2:
-    st_lottie(lottie_polyfox, height = 250, key="polyfox")
+    st.write(
+        "Let's start building!!! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    )
+
+# with col2:
+    # st_lottie(lottie_polyfox, height = 250, key="polyfox")
