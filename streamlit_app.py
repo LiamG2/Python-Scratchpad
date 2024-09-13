@@ -11,8 +11,13 @@ lottie_polyfox = "https://raw.githubusercontent.com/LiamG2/Python-Scratchpad/mai
 
 st.title("🎈 My new app")
 
-st_lottie(lottie_polyfox, height = 250, key="polyfox")
+col1, col2 = st.columns(2)
 
-st.write(
-    "Let's start building!!! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+
+with col1:
+    st.write(
+        "Let's start building!!! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    )
+
+with col2:
+    st_lottie(lottie_polyfox, height = 250, key="polyfox")
