@@ -25,9 +25,8 @@ with col1:
     
 # initiate 2nd column
 with col2:
-    st.write(
-        "Let's start building!!! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-    )
+    st.write("Let's start building!!! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/).")
+    st_lottie(lottie_polyfox, height = 100, key="polyfox")
 
 # with col2:
     # st_lottie(lottie_polyfox, height = 250, key="polyfox")
