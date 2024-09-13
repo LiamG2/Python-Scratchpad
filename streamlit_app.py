@@ -16,8 +16,8 @@ with st.sidebar:  # method for adding widgets to sidebar
 st.title("🎈 Much longer title of My new app")
 
 st.write(
-    ".............................................................\
-    ................... testing 2 column layoutt")
+    "............................................................."
+    "-................... testing 2 column layoutt")
 
 # prep for [any-num] column layout
 col1, col2 = st.columns(2)
