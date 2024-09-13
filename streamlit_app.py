@@ -9,15 +9,19 @@ def load_lottiefile(filepath: str):
 # lottie_streamlit = load_lottiefile("/kzrdAgrilI.json")
 lottie_polyfox = "https://raw.githubusercontent.com/LiamG2/Python-Scratchpad/main/kzrdAgrilI.json"
 
-st.title("🎈 My new app")
+st.title("🎈 Much longer title of My new app")
 
+
+# prep for [any-num] column layout
 col1, col2 = st.columns(2)
 
+# initiate 1st column
 with col1:
     st.write(
         "Let's start building!!! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
     )
-
+    
+# initiate 2nd column
 with col2:
     st.write(
         "Let's start building!!! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
