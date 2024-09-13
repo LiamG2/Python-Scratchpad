@@ -7,7 +7,7 @@ lottie_polyfox_1 = "https://raw.githubusercontent.com/LiamG2/Python-Scratchpad/m
 st.sidebar.header("Sidebar Title")
 
 with st.sidebar: # method for adding widgets to sidebar
-    st_lottie(lottie_polyfox_1, height = 100, key="polyfox")
+    st_lottie(lottie_polyfox_1, height = 100, key="polyfox_3")
     # note different 'key' name above, needed when using same animation multiple times
 
 st.title("🎈 Much longer title of My new app")
