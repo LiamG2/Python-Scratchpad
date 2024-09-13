@@ -26,5 +26,5 @@ with col1:
 # initiate 2nd column
 with col2:
     st.write("Let's start building!!! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/).")
-    # st_lottie(lottie_polyfox_1, height = 100, key="polyfox_2")
+    st_lottie(lottie_polyfox_1, height = 100, key="polyfox_2")
     # note different 'key' name above, needed when using same animation multiple times
