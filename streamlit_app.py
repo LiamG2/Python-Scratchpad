@@ -4,7 +4,7 @@ from streamlit_lottie import st_lottie
 
 lottie_polyfox_1 = "https://raw.githubusercontent.com/LiamG2/Python-Scratchpad/main/kzrdAgrilI.json"
 
-st.sidebar.header("Sidebar Title")
+st.sidebar.title("Sidebar Title")
 
 with st.sidebar: # method for adding widgets to sidebar
     st_lottie(lottie_polyfox_1, height = 100, key="polyfox_1")
