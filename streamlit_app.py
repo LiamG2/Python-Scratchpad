@@ -8,7 +8,7 @@ def load_lottiefile(filepath: str):
 '''
 
 lottie_polyfox_1 = "https://raw.githubusercontent.com/LiamG2/Python-Scratchpad/main/kzrdAgrilI.json"
-lottie_polyfox_2 = "https://raw.githubusercontent.com/LiamG2/Python-Scratchpad/main/kzrdAgrilI.json"
+# lottie_polyfox_2 = "https://raw.githubusercontent.com/LiamG2/Python-Scratchpad/main/kzrdAgrilI.json"
 
 st.sidebar.header("Sidebar Title")
 
@@ -22,12 +22,12 @@ col1, col2 = st.columns(2)
 # initiate 1st column
 with col1:
     st.write("Let's start building!!! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/).")
-    st_lottie(lottie_polyfox_1, height = 100, key="polyfox")
+    st_lottie(lottie_polyfox_1, height = 100, key="polyfox_1")
     
 # initiate 2nd column
 with col2:
     st.write("Let's start building!!! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/).")
-    st_lottie(lottie_polyfox_2, height = 100, key="polyfox")
+    st_lottie(lottie_polyfox_1, height = 100, key="polyfox_2")
 
 # with col2:
     # st_lottie(lottie_polyfox, height = 250, key="polyfox")
