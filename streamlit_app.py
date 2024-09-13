@@ -9,10 +9,9 @@ def load_lottiefile(filepath: str):
 # lottie_streamlit = load_lottiefile("/kzrdAgrilI.json")
 lottie_polyfox = "https://raw.githubusercontent.com/LiamG2/Python-Scratchpad/main/kzrdAgrilI.json"
 
+st.title("🎈 My new app")
 
 col1, col2 = st.columns(2)
-
-# st.title("🎈 My new app")
 
 with col1:
     st.write(
