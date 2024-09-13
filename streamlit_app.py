@@ -1,11 +1,11 @@
 import streamlit as st
 from streamlit_lottie import st_lottie
 
-
+'''
 def load_lottiefile(filepath: str):
     with open(filepath, "r") as f:
         return json.load(f)
-
+'''
 
 lottie_polyfox_1 = "https://raw.githubusercontent.com/LiamG2/Python-Scratchpad/main/kzrdAgrilI.json"
 lottie_polyfox_2 = "https://raw.githubusercontent.com/LiamG2/Python-Scratchpad/main/kzrdAgrilI.json"
