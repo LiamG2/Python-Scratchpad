@@ -12,7 +12,7 @@ lottie_polyfox = "https://raw.githubusercontent.com/LiamG2/Python-Scratchpad/mai
 
 col1, col2 = st.columns(2)
 
-st.title("🎈 My new app")
+# st.title("🎈 My new app")
 
 with col1:
     st.write(
