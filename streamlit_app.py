@@ -29,19 +29,14 @@ col1, col2 = st.columns(2, gap='large') # 'gap'= between columns
 with col1:
     # add here everything that needs to be in Column 1
 
-    file_path = 'example.txt'
+    file_path = 'lorem.txt'
      
     with open(file_path, 'r') as file:
         lines = file.readlines()
         file_content = ''.join(lines)
      
-    print(file_content)
-
+    st.write(file_content)
   
-    st.write(
-        'Let\'s start building!!! For help and inspiration, head \
-        over to ['
-        'docs.streamlit.io](https://docs.streamlit.io/).')
     st_lottie(lottie_polyfox_1, height=100, key="polyfox_2")
     # note different 'key' name above, needed when using same animation
     # \multiple times
