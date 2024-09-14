@@ -10,7 +10,7 @@ st.sidebar.header('Sidebar Header')
 
 # method for adding widgets/lotties to sidebar
 with st.sidebar:  
-    st_lottie(lottie_polyfox_1, height=100, key='polyfox_1')
+    st_lottie(lottie_polyfox_1, height=200, key='polyfox_1')
     # note different 'key' name above, needed when using same animation
     # \multiple times
 
@@ -37,7 +37,7 @@ with col1:
      
     st.write(file_content)
   
-    st_lottie(lottie_polyfox_1, height=100, key="polyfox_2")
+    st_lottie(lottie_polyfox_1, height=200, key="polyfox_2")
     # note different 'key' name above, needed when using same animation
     # \multiple times
 
@@ -48,6 +48,6 @@ with col2:
         'Let\'s start building!!! For help and inspiration, head \
         over to ['
         'docs.streamlit.io](https://docs.streamlit.io/).')
-    st_lottie(lottie_polyfox_1, height=100, key='polyfox_3')
+    st_lottie(lottie_polyfox_1, height=200, key='polyfox_3')
     # note different 'key' name above, needed when using same animation
     # \multiple times
