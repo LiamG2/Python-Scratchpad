@@ -16,9 +16,9 @@ with st.sidebar:
 st.title('🎈 Much longer title of My new app')
 
 st.write(
-    '................... testing 2 column layout'
-    '................... testing 2 column layout'
-    '................... testing 2 column layout'
+    '................ testing 2 column layout'
+    '................ testing 2 column layout'
+    '................ testing 2 column layout'
 )
 
 # set up [any-num] column layout in streamlit
