@@ -19,6 +19,12 @@ with st.sidebar:
     # note different 'key' name above, needed when using same animation
     # \multiple times
 
+with st.sidebar:
+    st.write(
+    '................ testing 2 column layout'
+    '................ testing 2 column layout'
+    '................ testing 2 column layout'
+)
 
 
 st.title('🎈 Much longer title of My new app')
