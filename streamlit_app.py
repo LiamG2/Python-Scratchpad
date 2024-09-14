@@ -53,5 +53,8 @@ with col2:
     # \multiple times
 
 st.write(
-    '.............................................................'
-    '................... testing 2 column layout')
+    '................ testing 2 column layout'
+    '................ testing 2 column layout'
+    '................ testing 2 column layout'
+)
+
