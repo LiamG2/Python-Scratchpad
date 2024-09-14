@@ -1,5 +1,4 @@
 import streamlit as st
-# noinspection PyUnresolvedReferences
 from streamlit_lottie import st_lottie
 
 lottie_polyfox_1 = ('https://raw.githubusercontent.com/LiamG2/Python-Scratchpad/main/kzrdAgrilI.json')
@@ -18,7 +17,7 @@ st.title('🎈 Much longer title of My new app')
 
 st.write(
     '.............................................................'
-    '................... testing 2 column layoutt')
+    '................... testing 2 column layout')
 
 # set up [any-num] column layout in streamlit
 col1, col2 = st.columns(2, gap='large') # 'gap'= between columns
@@ -50,3 +49,7 @@ with col2:
     st_lottie(lottie_polyfox_1, height=200, key='polyfox_3')
     # note different 'key' name above, needed when using same animation
     # \multiple times
+
+st.write(
+    '.............................................................'
+    '................... testing 2 column layout')
