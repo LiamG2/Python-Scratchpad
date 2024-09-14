@@ -1,17 +1,23 @@
 import streamlit as st
 from streamlit_lottie import st_lottie
 
-lottie_polyfox_1 = ('https://raw.githubusercontent.com/LiamG2/Python-Scratchpad/main/kzrdAgrilI.json')
+lottie_polyfox_1 = ('https://raw.githubusercontent.com/LiamG2/Python-Scratchpad/main/kzrdAgrilI.json') # PEP-8 Length N/A
 
 st.sidebar.title('Sidebar Title')
 st.sidebar.header('Sidebar Header')
 
 # method for adding widgets/lotties to sidebar
-with st.sidebar:  
+with st.sidebar:
     st_lottie(lottie_polyfox_1, height=200, key='polyfox_1')
     # note different 'key' name above, needed when using same animation
     # \multiple times
 
+with st.sidebar:
+    st.write(
+    '................ testing 2 column layout'
+    '................ testing 2 column layout'
+    '................ testing 2 column layout'
+)
 
 st.title('🎈 Much longer title of My new app')
 
