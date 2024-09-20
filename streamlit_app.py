@@ -5,13 +5,6 @@ lottie_polyfox_1 = ('https://raw.githubusercontent.com/LiamG2/Python-Scratchpad/
 
 st.sidebar.title('Sidebar Title')
 st.sidebar.header('Sidebar Header')
-
-with st.sidebar:
-    st.write(
-    '................ testing 2 column layout'
-    '................ testing 2 column layout'
-    '................ testing 2 column layout'
-)
     
 # method for adding widgets/lotties to sidebar
 with st.sidebar:
